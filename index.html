@@ -1,182 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PAT Cargo VAD LLC</title>
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f4f4;
-            color: #333;
-        }
-        nav {
-            background: #000;
-            color: #fff;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 15px 30px;
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-        nav .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        .hero {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-            padding: 80px 20px;
-            background: #111;
-            color: #fff;
-            min-height: 100vh;
-            animation: fadeIn 2s ease-in-out;
-        }
-        .hero-text {
-            max-width: 500px;
-            padding: 20px;
-            animation: slideInLeft 1.5s ease;
-        }
-        .hero-text h1 {
-            font-size: 48px;
-            margin-bottom: 20px;
-        }
-        .hero-text p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .hero-img img {
-            max-width: 400px;
-            width: 100%;
-            border-radius: 10px;
-            animation: slideInRight 1.5s ease;
-        }
-        .section {
-            padding: 60px 20px;
-            text-align: center;
-            max-width: 900px;
-            margin: 0 auto;
-            opacity: 0;
-            transform: translateY(50px);
-            transition: all 1s ease;
-        }
-        .section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-        .section h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-        }
-        .section p {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #555;
-        }
-        .contact {
-            background: #e9e9e9;
-            padding: 60px 20px;
-        }
-        footer {
-            background: #000;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-            font-size: 14px;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-        @keyframes slideInLeft {
-            from { transform: translateX(-50px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-        @keyframes slideInRight {
-            from { transform: translateX(50px); opacity: 0; }
-            to { transform: translateX(0); opacity: 1; }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HI DRIVE LTD EOOD</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #004466;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    section {
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    section:nth-child(even) {
+      background-color: #f1f1f1;
+    }
+    .text {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+    .text h2 {
+      color: #004466;
+    }
+    .image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #004466;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 <body>
 
-    <nav>
-        <div class="logo">PAT Cargo VAD LLC</div>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<header>
+  <h1>HI DRIVE LTD EOOD</h1>
+  <p>Contact: admin@driveeood.shop | Phone: +359504949621</p>
+  <p>Address: 4 Ul. Amsterdam str. R-N ISKAR DISTR Sofia, Stolichna, 1784 Bulgaria</p>
+</header>
 
-    <div class="hero" id="home">
-        <div class="hero-text">
-            <h1>PAT Cargo VAD LLC</h1>
-            <p>Your trusted partner in transportation and warehousing. We provide reliable cargo services and storage solutions to meet your business needs with efficiency and care.</p>
-        </div>
-        <div class="hero-img">
-            <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?ixlib=rb-4.0.3&auto=format&fit=crop&w=934&q=80" alt="Cargo Services">
-        </div>
-    </div>
+<section>
+  <div class="text">
+    <h2>Our Publishing Expertise</h2>
+    <p>We specialize in professional periodical publishing, delivering well-crafted content for diverse sectors including business, culture, and lifestyle.</p>
+  </div>
+  <div class="image">
+    <img src="https://t3.ftcdn.net/jpg/03/93/78/74/360_F_393787466_sSVexM5bhmR8Kb6EFgENhQOvjyDgxUZg.jpg" alt="Publishing Office" />
+  </div>
+</section>
 
-    <div class="section" id="about">
-        <h2>About Us</h2>
-        <p>PAT Cargo VAD LLC is a Domestic LLC based in Arizona, offering specialized services in transportation and warehousing. With a focus on reliability and customer satisfaction, we have been serving businesses since 2021.</p>
-        <p><strong>Registered Address:</strong><br>
-        2902 W Sweetwater Ave, Apt 2190, Phoenix, AZ 85029, United States</p>
-    </div>
+<section>
+  <div class="image">
+    <img src="https://ik.imagekit.io/pimberly/595e406f0f15f30010780448/tr:w-1000,h-1000,cm-pad_resize/0da316e3/60f56c25cd456c21680001ee/7fb85ac8/IC38715_01.jpg?product_name=GBC-PolyClearView-A4-Binding-Cover-450micron-Frosted-Clear-(Pack-of-50)-IB387159.jpg" alt="Binding Products" />
+  </div>
+  <div class="text">
+    <h2>High-Quality Print Materials</h2>
+    <p>From clear binding covers to professional-grade paper, we supply top-quality materials for every print need.</p>
+  </div>
+</section>
 
-    <div class="section contact" id="contact">
-        <h2>Contact Us</h2>
-        <p><strong>Email:</strong> <a href="mailto:contact@patcargovadllc.click">contact@patcargovadllc.click</a></p>
-        <p><strong>Agent Address:</strong><br>
-        2902 W Sweetwater Ave, Apt 2190, Phoenix, AZ 85029, United States</p>
-    </div>
+<section>
+  <div class="text">
+    <h2>Modern Magazine Production</h2>
+    <p>Our design team creates elegant, modern magazine layouts tailored to your brand and audience.</p>
+  </div>
+  <div class="image">
+    <img src="https://thedezign.com/wp-content/uploads/2021/03/Free-Square-Magazine-Mockup-01.jpg" alt="Magazine Design" />
+  </div>
+</section>
 
-    <footer>
-        &copy; 2025 PAT Cargo VAD LLC. All rights reserved.
-    </footer>
+<section>
+  <div class="image">
+    <img src="https://i.pinimg.com/originals/9f/7e/fd/9f7efd1b90e8b3dc0f67073440ccf878.jpg" alt="Print Setup" />
+  </div>
+  <div class="text">
+    <h2>Professional Print Setup</h2>
+    <p>We ensure every print project is handled with precision from start to finish using state-of-the-art equipment.</p>
+  </div>
+</section>
 
-    <script>
-        // Intersection Observer for fade-in effect
-        const sections = document.querySelectorAll('.section');
-        const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
-                }
-            });
-        }, {
-            threshold: 0.1
-        });
+<section>
+  <div class="text">
+    <h2>Creative Publishing Projects</h2>
+    <p>Whether it’s a corporate brochure or a niche zine, we bring your publishing ideas to life with creativity and precision.</p>
+  </div>
+  <div class="image">
+    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/11b77c34675673.56d935a45770e.jpg" alt="Creative Publishing" />
+  </div>
+</section>
 
-        sections.forEach(section => {
-            observer.observe(section);
-        });
-    </script>
+<footer>
+  <p>&copy; 2025 HI DRIVE LTD EOOD. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
